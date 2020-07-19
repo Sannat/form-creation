@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  margin: 20px;
 }
 
 .App-logo {
@@ -24,9 +27,63 @@
   color: white;
 }
 
+.input {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 5px; 
+}
+
+.checkbox {
+  margin-left: 20px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 650px;
+}
+
+.submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
+}
+
+.openDialogButton {
+  background-color: blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+  margin-top: 6px; 
+  margin-bottom: 5px;
+}
+.error {
+  color: red;
+  vertical-align: text-top;
+  font-size: small;
+  font-style: italic;
+  width: 100%;
+}
+
+.text {
+  font-weight: bold;
+}
+
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
