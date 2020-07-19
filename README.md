@@ -1,6 +1,6 @@
 # form-creation task
 A react component to produce forms from different JSON props
-Total time spent - 10 hours
+Total time spent - 8 to 10 hours
 
 ### How to run the application locally?
 1. clone the repository from github; https://github.com/Sannat/form-creation.git 
@@ -71,6 +71,9 @@ Total time spent - 10 hours
         "guardianConsentRequired": true,
         "guardian": { "name": "Shane Singh", "contact": "0468900002" }
         }
+    
+    # Screenshot
+    ![React-Screenshot](https://user-images.githubusercontent.com/5678788/87874715-62da1100-ca0f-11ea-8b29-bb271aa3f0aa.PNG)
 
 ### Possible Improvements : Backlog of items below along with priorities
     # story 1 - Instead of using document.getElementById, we must use react state to store all form inputs in state and use it where ever required. (Must)
